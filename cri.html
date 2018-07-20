@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>tian</title>
+    <style>
+        body{
+            margin: 0;
+        }
+
+        #one,#two,#three,#four{
+            border: 1px solid #ff0000;
+            width: 100px;
+            height: 100px;
+            position: relative;
+
+        }
+        #two{
+            transform: translateY(-1px);
+        }
+        #three{
+            transform:translateX(-1px);
+        }
+        #four{
+            transform: translate(-1px,-1px);
+        }
+        #left,#right{
+            float: left;
+
+        }
+        #one:hover{
+            border-color: #55a532;
+            z-index: 1;
+        }
+        #two:hover{
+            border-color: #55a532;
+            z-index: 1;
+        }
+        #three:hover{
+            border-color: #55a532;
+            z-index: 1;
+        }
+        #four:hover{
+            border-color: #55a532;
+            z-index: 1;
+        }
+
+
+    </style>
+</head>
+<body>
+<div id="left">
+    <div id="one"></div>
+    <div id="two"></div>
+</div>
+<div id="right">
+    <div id="three"> </div>
+    <div id="four"></div>
+</div>
+
+
+</body>
+</html>
