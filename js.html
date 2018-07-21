@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        li{
+            list-style: none;
+        }
+        body,ul,li{
+            margin: 0;
+            padding: 0;
+        }
+        #menu{
+            display: none;
+            position: absolute;
+        }
+        #menu li{
+            width: 100px;
+            height: 20px;
+            border: 1px solid #000000;
+            border-bottom-style: dashed;
+            text-align: center;
+            line-height: 20px;
+            border-top-style: none;
+            cursor: pointer;
+        }
+        #menu .first{
+            border-top-style: solid;
+        }
+        #menu .last{
+            border-bottom-style: solid;
+        }
+    </style>
+</head>
+<body>
+<ul id="menu">
+    <li class="first">菜单1</li>
+    <li>菜单2</li>
+    <li>菜单3</li>
+    <li>菜单4</li>
+    <li>菜单5</li>
+    <li class="last">菜单6</li>
+</ul>
+<script>
+    var oMenu = document.getElementById('menu');
+    var aLi=oMenu.getElementsByTagName('li')
+    document.oncontextmenu = function (ev) {
+        ev = ev || window .event ;
+        oMenu.style.display='block';
+        oMenu.style.left = ev.clientX + 'px';
+        oMenu.style.top = ev.clientY + 'px';
+        return false;
+    }
+    document.onclick =function () {
+        oMenu.style.display='none';
+    }
+    for (var a=0; a<aLi.length; a++){
+        aLi[a].onclick =function () {
+            alert(this.innerHTML);
+        };
+
+    }
+</script>
+</body>
+</html>
