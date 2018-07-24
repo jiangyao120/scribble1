@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            list-style: none;
+        }
+
+        #wrapper{
+            width: 520px;
+            position: relative;
+        }
+        #menu img{
+            position: absolute;
+            height: 280px;
+            line-height: 280px;
+            display: none;
+
+        }
+        #cotton li,#nav span{
+            float: left;
+            width: 20px;
+            height: 20px;
+            line-height: 20px;
+            text-align: center;
+            margin-right: 10px;
+            background: #000;
+            color: #fff;
+            cursor: pointer;
+        }
+        #cotton{
+            position: absolute;
+            top: 280px;
+            left: 520px;
+            margin-top: -20px;
+            margin-left: -100%;
+        }
+
+        #nav{
+            position: absolute;
+            top: 260px;
+            left: 450px;
+        }
+        #cotton li.select{
+            background: orange;
+        }
+
+    </style>
+</head>
+<body>
+        <div id="wrapper">
+            <div id="menu">
+                    <img style="display: block" src="img/1.jpg" alt="">
+                    <img src="img/2.jpg" alt="">
+                    <img src="img/3.jpg" alt="">
+                    <img src="img/4.jpg" alt="">
+
+                <!--<div class="img">-->
+                    <!--<img src="" alt="">-->
+                <!--</div>-->
+                <!--<div class="img">-->
+                    <!--<img src="" alt="">-->
+                <!--</div>-->
+            </div>
+            <ul id="cotton">
+                <li class="select">1</li>
+                <li>2</li>
+                <li>3</li>
+                <li>4</li>
+                <!--<li>5</li>-->
+                <!--<li>6</li>-->
+            </ul>
+          <div id="nav">
+              <span id="left">&lt;</span>
+              <span id="right">&gt;</span>
+          </div>
+        </div>
+        <script>
+            var owrapper=document.getElementById('wrapper')
+            var oMenu=document.getElementById('menu');
+            var aImg=oMenu.getElementsByTagName('img');
+            var oCotton=document.getElementById('cotton');
+            var aLi=oCotton.getElementsByTagName('li');
+            var oleft=document.getElementById('left');
+            var oright=document.getElementById('right');
+            var onindex=1;
+            var timmer;
+            for (var i=0 ; i<aLi.length ;i++){
+                aLi[i].index=i;
+                aLi[i].onmouseover=function () {
+                    onindex=this.index;
+                   change();
+                }
+            }
+            oleft.onselectstart=oright.onselectstart=function(){
+                return false;
+            }
+            oleft.onclick=oright.onclick = function(){
+                if ( oleft==this){
+                    onindex--;
+                    if(onindex==-1){
+                    onindex= aLi.length-1;
+                    }
+                }
+                else    {
+                    onindex++;
+                    if (onindex == aLi.length) {
+                        onindex=0;
+                    }
+                }
+                change();
+
+            }
+            owrapper.onmouseover=function(){
+                clearInterval(timmer);
+            }
+            owrapper.onmouseout=function(){
+                timmer=setInterval(function () {
+                    oright.onclick();
+                },1000)
+            }
+
+            timmer=setInterval(function () {
+                oright.onclick();
+            },1000)
+            function change() {
+                for (var j = 0; j < aLi.length; j++) {
+                    aLi[j].className='';
+                    aImg[j].style.display='none'
+                }
+                this.className='select';
+                aImg[onindex].style.display='block';
+            }
+
+        </script>
+
+</body>
+</html>

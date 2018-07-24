@@ -12,6 +12,7 @@
             width: 609px;
             height: 230px;
             border: 1px solid #000000;
+            background: #cccccc;
         }
        .box{
             width: 202px ;
@@ -20,6 +21,7 @@
            border-right: 1px solid #000000;
             float: left;
            cursor: pointer;
+
        }
         p{
             width: 610px;
@@ -29,12 +31,20 @@
             top: 31px;
             display: none;
         }
+        .clear:after{
+            content: '';
+            display: none;
+            clear: both;
+        }
+        #first .select{
+            background: #000;
+        }
     </style>
 </head>
 <body>
     <div id="wrapper">
-        <div id="first">
-            <div class="box">1</div>
+        <div id="first" class="clear">
+            <div class="box select">1</div>
             <div class="box">2</div>
             <div class="box">3</div>
         </div>
@@ -46,8 +56,8 @@
 
     </div>
     <script>
-        var oFirst=document.getElementById('first');
-        var aAum = oFirst.getElementsByClassName('box');
+        // var oFirst=document.getElementById('first');
+        var aAum = document.getElementsByClassName('box');
         var oShow=document.getElementById('under')
         var aSon = oShow.getElementsByTagName('p');
        for (var a = 0; a < aAum.length; a++) {
@@ -55,7 +65,9 @@
           aAum[a].onclick=function () {
               for (var a = 0; a < aAum.length; a++){
                   aSon[a].style.display='none';
+                  aAum[a].className='box'
               }
+                  this.className +=' select'
                   aSon[this.index].style.display='block';
               }
 
