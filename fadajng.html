@@ -41,6 +41,7 @@
             height: 400px;
             z-index: 1 ;
         }
+
     </style>
 </head>
 <body>
@@ -66,6 +67,28 @@
                     oBig.style.display='none';
                     oDrug.style.display='none';
                 }
+                oSmall.onmousemove=function (e) {
+                    e=e||window.event;
+                    var top=e.clientY;
+                    var left =e.clientX-oDrug.offsetWidth/2;
+                    if (top<oDrug.offsetHeight/2){
+                        top=0;
+                    }
+                    if (left<0) {
+                        left=0;
+                    }
+                    var topMax=oSmall.offsetHeight-oDrug.offsetHeight;
+                    if (top > topMax) {
+                        top=topMax;
+                    }
+                    var leftMax=oSmall.offsetWidth-oDrug.offsetWidth;
+                    if (left > leftMax) {
+                        left=leftMax;
+                    }
+                    oDrug.style.top= top +'px';
+                    oDrug.style.left=left+'px';
+                }
+
             </script>
 
 </body>
