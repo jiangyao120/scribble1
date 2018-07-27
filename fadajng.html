@@ -14,15 +14,22 @@
             position: relative;
         }
         #big{
-            position: absolute;
-            left: 400px;
-            top:0px;
             overflow: hidden;
             width: 400px;
             height: 400px;
             display: none;
+            position: absolute;
+            top: 0px;
+            left: 400px;
         }
-        #drug{
+
+            #big-img{
+                position: absolute;
+                top: 0;
+                left: 0;
+            }
+
+            #drug{
             width: 200px;
             height: 200px;
             position: absolute;
@@ -41,6 +48,9 @@
             height: 400px;
             z-index: 1 ;
         }
+        #contain{
+
+        }
 
     </style>
 </head>
@@ -52,13 +62,14 @@
                     <div id="mask"></div>
                 </div>
                 <div id="big">
-                    <img src="img//2.jpg" alt="">
+                    <img id="big-img" src="img//2.jpg" alt="">
                 </div>
             </div>
             <script>
                 var oSmall=document.getElementById('small');
                 var oBig=document.getElementById('big');
                 var oDrug=document.getElementById('drug');
+                var oBigImg = document.getElementById('big-img');
                 oSmall.onmouseover=function () {
                     oBig.style.display='block';
                     oDrug.style.display='block';
@@ -69,9 +80,9 @@
                 }
                 oSmall.onmousemove=function (e) {
                     e=e||window.event;
-                    var top=e.clientY;
+                    var top=e.clientY-oDrug.offsetHeight/2 ;
                     var left =e.clientX-oDrug.offsetWidth/2;
-                    if (top<oDrug.offsetHeight/2){
+                    if (top<0){
                         top=0;
                     }
                     if (left<0) {
@@ -87,6 +98,13 @@
                     }
                     oDrug.style.top= top +'px';
                     oDrug.style.left=left+'px';
+                    // drag移动的百分比
+                    var drugDansX = oDrug.offsetLeft / leftMax;
+                    var drugDansY = oDrug.offsetTop / topMax;
+
+                    // 设置大图片的位置
+                    oBigImg.style.left = -drugDansX * (oBigImg.offsetWidth - oBig.offsetWidth) + 'px';
+                    oBigImg.style.top = -drugDansY * (oBigImg.offsetHeight - oBig.offsetHeight) + 'px';
                 }
 
             </script>
