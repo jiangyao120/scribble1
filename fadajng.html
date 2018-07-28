@@ -49,7 +49,8 @@
             z-index: 1 ;
         }
         #contain{
-
+            margin-top: 80px;
+            position: relative;
         }
 
     </style>
@@ -80,7 +81,7 @@
                 }
                 oSmall.onmousemove=function (e) {
                     e=e||window.event;
-                    var top=e.clientY-oDrug.offsetHeight/2 ;
+                    var top=e.clientY-oDrug.offsetHeight/2-80;
                     var left =e.clientX-oDrug.offsetWidth/2;
                     if (top<0){
                         top=0;
