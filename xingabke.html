@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            list-style: none;
+        }
+        #menu{
+            width: 30%;
+            overflow: hidden;
+
+            background: #e8e8e8;
+            position: fixed;
+            height: 100%;
+            float: left;
+        }
+        #wrapper{
+            width: 70%;
+            position: relative;
+            top: 0px;
+            left: 31%;
+            height: 500px;
+        }
+        #menu-top{
+            margin: 50px auto;
+            width: 250px;
+            height: 96px;
+        }
+        #menu-top li{
+            width: 70px;
+            height: 19px;
+            text-align: center;
+            line-height: 19px;
+            float: left;
+            margin-right: 10px;
+        }
+        #menu-room{
+            width: 200px;
+            height: 200px;
+            margin: 0 auto;
+            font-size: 1.5em;
+            font-weight: 700;
+        }
+        #menu-list{
+             width: 100px;
+            margin: 0 auto;
+}
+        #menu-list a{
+            color: #00ff00;
+            padding-right: 20px;
+        }
+        #imgs{
+            width: 960px;
+            height: 450px;
+
+        }
+        #imgs img{
+            width: 960px;
+            position: absolute;
+            display: block;
+            height: 500px;
+        }
+        #lunbo{
+            position: relative;
+            width: 960px;
+            height: 500px;
+        }
+        #index{
+            position: absolute;
+            z-index: 1;
+            font-size: 40px;
+            color: #ffffff;
+            top: 200px;
+            left: 90%;
+
+
+        }
+        #imgs img.selected{
+            z-index: 1;
+        }
+        #run{
+            width: 100%;
+
+        }
+        #run li{
+            width: 30%;
+            float: left;
+            margin-left: 20px;
+        }
+        #run img{
+            width: 100%;
+
+
+        }
+        @media (max-width: 1308px) {
+            #menu{
+                width: 30%;
+            }
+            #wrapper{
+                width: 70%;
+            }
+            #lunbo{
+                width: 100%;
+            }
+            #imgs img{
+                width: 100%;
+            }
+
+        }
+    </style>
+</head>
+<body>
+            <div id="contain">
+                <div id="menu" >
+                    <ul id="menu-top">
+                        <li>门店</li>
+                        <li>我的账户</li>
+                        <li>菜单</li>
+
+                    </ul>
+                    <div id="menu-room">
+                        <span>心情惬意，来杯咖啡吧！</span>
+                    </div>
+                    <div id="menu-list">
+                        <a href="">
+                            <img src="" alt="">
+                            <span>登陆</span>
+                        </a>
+                        <a href="">
+                            <span>注册</span>
+                        </a>
+                    </div>
+                </div>
+                <div id="wrapper">
+                    <div id="lunbo">
+                        <div id="imgs">
+                            <img class="selected" src="lun1.jpg" alt="">
+                            <img src="lun2.jpg" alt="">
+                            <img src="lun3.jpg" alt="">
+                        </div>
+                        <div id="index">&gt;</div>
+                    </div>
+                    <ul id="run">
+                        <li><a href=""><img src="x1.jpg" alt=""></a></li>
+                        <li><a href=""><img src="x2.jpg" alt=""></a></li>
+                        <li><a href=""><img src="x3.jpg" alt=""></a></li>
+                    </ul>
+                </div>
+            </div>
+            <script>
+                var oImgs=document.getElementById('imgs');
+                var aImg=oImgs.getElementsByTagName('img');
+                var oIndex=document.getElementById('index');
+                var olunbo=document.getElementById('lunbo');
+                var index=0;
+                olunbo.onmouseout=function () {
+                    timmer=setInterval(function () {
+                        oIndex.onclick();
+                    },1000)
+                }
+                olunbo.onmouseover=function(){
+                    clearInterval(timmer);
+                }
+                timmer=setInterval(function () {
+                    oIndex.onclick();
+                },1000)
+                   oIndex.onclick=function () {
+                    for (var i = 0; i <aImg.length; i++) {
+                        if (index !== i) {
+                            aImg[i].className='';
+                        }
+
+                    }
+                       aImg[index].className='selected';
+                       index++;
+                       if (index == aImg.length){
+                           index=0;}
+
+
+
+                }
+            </script>
+</body>
+</html>

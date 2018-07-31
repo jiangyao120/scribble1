@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        h2{
+            width: 960px;
+            height: 30px;
+            background: #e8e8e8;
+            text-align: center;
+            line-height: 30px;
+            color: black;
+            margin: 10px auto;
+        }
+
+
+        #imgs{
+            width: 960px;
+            margin: 0 auto;
+        }
+        #write{
+            width: 960px;
+            margin: 0 auto;
+        }
+        #left{
+            float: left;
+            width: 600px;
+            height: 200px;
+            background: #ff0000;
+            margin-right: 20px;
+        }
+       #imgs img{
+            width: 960px;
+            display: block;
+        }
+        #right{
+            float: left;
+            width: 340px;
+            height: 200px;
+            background: #00ff00;
+        }
+        #botton{
+            clear: both;
+        }
+        @media (max-width: 960px){
+            h2{
+                width: 100%;
+            }
+            #imgs{
+                width: 100%;
+            }
+            #write{
+                width: 100%;
+            }
+            #imgs img{
+                width: 100%;
+            }
+            #left{
+                width: 60%;
+                margin-right: 3%;
+            }
+            #right{
+                width: 36%;
+            }
+
+        }
+        @media(max-width: 560px){
+            #left,#right{
+                width: 100%;
+            }
+        }
+
+
+    </style>
+</head>
+<body>
+
+            <h2>主题</h2>
+            <h2>标题</h2>
+            <div id="imgs">
+                <img src="01.jpg" alt="">
+            </div>
+            <div id="write">
+                <p id="left"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris sem erat, egestas quis luctus ut, rhoncus
+                    vitae risus. Integer venenatis libero sit amet sapien dictum, quis bibendum mi volutpat. Cras pretium quam
+                    quis magna facilisis, eget feugiat nisi lacinia.</p>
+                <p id="right">  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris sem erat, egestas quis luctus ut, rhoncus
+                    vitae risus. Integer venenatis libero sit amet sapien dictum, quis bibendum mi volutpat. Cras pretium quam
+                    quis magna facilisis, eget feugiat nisi lacinia.</p>
+            </div>
+            <h2 id="botton">页尾</h2>
+
+        <div class="col-lg-3 col-md-6 col-sm-12"></div>
+
+</body>
+</html>

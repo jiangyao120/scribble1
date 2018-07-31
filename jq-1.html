@@ -34,15 +34,26 @@
 
 
 <script>
-        $(function () {
-            $('#skin li').on('click',function () {
-              $('this').addClass('select').silbings().removeClass('select');
-              $('#cssfile').attr('href','css+ +css')
-            })
-
-        })
 
 
+
+$(function(){
+if($.cookie('s')){
+changeSkin($.cookie('s'));
+}
+
+$('#skin li').on('click', function(){
+changeSkin($(this).attr('id'));
+$.cookie('s', $(this).attr('id'), {expires: 30});
+});
+
+function changeSkin(id){
+$('#' + id).addClass('selected').siblings().removeClass('selected');
+$('#cssfile').attr('href', 'css/'+ id +'.css');
+}
+
+
+});
 </script>
 </body>
 </html>
