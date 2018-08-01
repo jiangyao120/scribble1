@@ -10,26 +10,35 @@
             padding: 0;
             list-style: none;
         }
+        a{
+            text-decoration: none;
+        }
         #menu{
             width: 30%;
             overflow: hidden;
-
             background: #e8e8e8;
             position: fixed;
-            height: 100%;
+            bottom: 0px;
+            left: 0px;
+            top: 0px;
             float: left;
+            z-index: 5;
         }
         #wrapper{
             width: 70%;
             position: relative;
             top: 0px;
-            left: 31%;
+            left: 30%;
             height: 500px;
         }
+        #header{
+            width: 100%;
+            margin-bottom: 50px;
+        }
         #menu-top{
-            margin: 50px auto;
+            margin: 0 auto;
+            margin-top: 50px;
             width: 250px;
-            height: 96px;
         }
         #menu-top li{
             width: 70px;
@@ -39,9 +48,13 @@
             float: left;
             margin-right: 10px;
         }
+        #nav{
+            float: right;
+            width: 36px;
+
+        }
         #menu-room{
             width: 200px;
-            height: 200px;
             margin: 0 auto;
             font-size: 1.5em;
             font-weight: 700;
@@ -84,17 +97,23 @@
             z-index: 1;
         }
         #run{
-            width: 100%;
+           display: flex;
 
         }
         #run li{
-            width: 30%;
             float: left;
-            margin-left: 20px;
-        }
-        #run img{
-            width: 100%;
+            margin-top: 30px;
 
+            margin-left: 10px;
+
+        }
+        #run li:hover{
+            margin-top: 20px;
+            box-shadow:0 0 5px #cccccc ;
+        }
+        #run li img{
+            width: 100%;
+            display: block;
 
         }
         @media (max-width: 1308px) {
@@ -110,19 +129,37 @@
             #imgs img{
                 width: 100%;
             }
+        }
+        @media (max-width: 1024px) {
+            #menu{
+                width: 100%;
+                position: static;
+                right: 0px;
+                height: 250px;
+            }
 
+            #wrapper{
+                width: 100%;
+                left: 0px;
+                top: 250px;
+            }
         }
     </style>
 </head>
 <body>
             <div id="contain">
                 <div id="menu" >
-                    <ul id="menu-top">
-                        <li>门店</li>
-                        <li>我的账户</li>
-                        <li>菜单</li>
+                    <div id="header">
+                        <ul id="menu-top">
+                            <li>门店</li>
+                            <li>我的账户</li>
+                            <li>菜单</li>
+                        </ul>
+                        <div id="nav">
+                            <img src="1.svg" alt="">
+                        </div>
+                    </div>
 
-                    </ul>
                     <div id="menu-room">
                         <span>心情惬意，来杯咖啡吧！</span>
                     </div>
