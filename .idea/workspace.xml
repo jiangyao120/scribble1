@@ -1,0 +1,828 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="d09fdd51-b90e-45f3-af86-69a4997e5cbc" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/xingabke.html" beforeDir="false" afterPath="$PROJECT_DIR$/xingabke.html" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/.tmp/" />
+    <ignored path="$PROJECT_DIR$/temp/" />
+    <ignored path="$PROJECT_DIR$/tmp/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="jq-1.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/jq-1.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="893">
+              <caret line="47" column="3" selection-start-line="47" selection-start-column="3" selection-end-line="47" selection-end-column="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="响应式.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/响应式.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1292">
+              <caret line="68" column="24" selection-start-line="68" selection-start-column="24" selection-end-line="68" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="lunbotu.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lunbotu.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2394">
+              <caret line="126" column="12" selection-start-line="126" selection-start-column="12" selection-end-line="127" selection-end-column="33" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="fadajng.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/fadajng.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1843">
+              <caret line="97" column="2" selection-start-line="97" selection-start-column="2" selection-end-line="97" selection-end-column="2" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="js.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1159">
+              <caret line="61" selection-start-line="61" selection-end-line="61" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="xuanxiang.hyml.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/xuanxiang.hyml.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="570">
+              <caret line="37" column="49" selection-start-line="37" selection-start-column="49" selection-end-line="37" selection-end-column="49" />
+              <caret line="30" column="34" selection-start-line="30" selection-start-column="34" selection-end-line="30" selection-end-column="34" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="xingabke.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/xingabke.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="264">
+              <caret line="57" column="25" selection-start-line="57" selection-start-column="25" selection-end-line="57" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="PUSH_TAGS">
+      <GitPushTagMode />
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/cri.html" />
+        <option value="$PROJECT_DIR$/3d.html" />
+        <option value="$PROJECT_DIR$/3d2.html" />
+        <option value="$PROJECT_DIR$/js.html" />
+        <option value="$PROJECT_DIR$/mohe.html" />
+        <option value="$PROJECT_DIR$/lunbotu.html" />
+        <option value="$PROJECT_DIR$/img/lunbo2.html" />
+        <option value="$PROJECT_DIR$/lunbo1.html" />
+        <option value="$PROJECT_DIR$/xuanxiangka.html" />
+        <option value="$PROJECT_DIR$/fadajng.html" />
+        <option value="$PROJECT_DIR$/donghua.html" />
+        <option value="$PROJECT_DIR$/jq1.html" />
+        <option value="$PROJECT_DIR$/jq2.html" />
+        <option value="$PROJECT_DIR$/wenbengaodu.html" />
+        <option value="$PROJECT_DIR$/jq3.html" />
+        <option value="$PROJECT_DIR$/neirongguolv.html" />
+        <option value="$USER_HOME$/Desktop/jQuery练习/3_选项卡/1-选项卡/demo1.html" />
+        <option value="$PROJECT_DIR$/xuanxiang.hyml.html" />
+        <option value="$PROJECT_DIR$/guangao.html" />
+        <option value="$PROJECT_DIR$/jq-1.html" />
+        <option value="$PROJECT_DIR$/响应式.html" />
+        <option value="$PROJECT_DIR$/xingabke.html" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-10" />
+    <option name="width" value="1379" />
+    <option name="height" value="744" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="scribble2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="scribble2" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="scribble2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="scribble2" type="462c0819:PsiDirectoryNode" />
+              <item name="images" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.prettier" value="true" />
+    <property name="node.js.path.for.package.prettier" value="project" />
+    <property name="node.js.selected.package.prettier" value="" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\ASUS\WebstormProjects\scribble2" />
+      <recent name="C:\Users\ASUS\WebstormProjects\scribble2\images" />
+      <recent name="C:\Users\ASUS\WebstormProjects\scribble2\img" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="js.html" type="JavascriptDebugType" factoryName="JavaScript Debug" nameIsGenerated="true" uri="http://localhost:63342/scribble2/js.html" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d09fdd51-b90e-45f3-af86-69a4997e5cbc" name="Default" comment="" />
+      <created>1531925418827</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1531925418827</updated>
+      <workItem from="1531925420084" duration="629000" />
+      <workItem from="1532006483990" duration="4635000" />
+      <workItem from="1532097822485" duration="3489000" />
+      <workItem from="1532101433778" duration="1747000" />
+      <workItem from="1532181742165" duration="12000" />
+      <workItem from="1532183202087" duration="809000" />
+      <workItem from="1532269670237" duration="579000" />
+      <workItem from="1532315495931" duration="618000" />
+      <workItem from="1532340153924" duration="1963000" />
+      <workItem from="1532342137092" duration="1795000" />
+      <workItem from="1532343979507" duration="1291000" />
+      <workItem from="1532347927023" duration="1792000" />
+      <workItem from="1532349739906" duration="1793000" />
+      <workItem from="1532351553608" duration="2009000" />
+      <workItem from="1532355042565" duration="788000" />
+      <workItem from="1532394333477" duration="605000" />
+      <workItem from="1532399924055" duration="1797000" />
+      <workItem from="1532401772347" duration="1792000" />
+      <workItem from="1532403587007" duration="1542000" />
+      <workItem from="1532410116501" duration="1340000" />
+      <workItem from="1532412776712" duration="781000" />
+      <workItem from="1532415480536" duration="1795000" />
+      <workItem from="1532417294053" duration="1795000" />
+      <workItem from="1532419110181" duration="745000" />
+      <workItem from="1532432890890" duration="599000" />
+      <workItem from="1532436363986" duration="1789000" />
+      <workItem from="1532438172304" duration="1793000" />
+      <workItem from="1532439988208" duration="1794000" />
+      <workItem from="1532441835101" duration="1255000" />
+      <workItem from="1532479752098" duration="1528000" />
+      <workItem from="1532483620164" duration="599000" />
+      <workItem from="1532485595942" duration="1439000" />
+      <workItem from="1532487407446" duration="1792000" />
+      <workItem from="1532489218732" duration="1809000" />
+      <workItem from="1532491052496" duration="277000" />
+      <workItem from="1532496726217" duration="1791000" />
+      <workItem from="1532498535683" duration="1982000" />
+      <workItem from="1532500536483" duration="836000" />
+      <workItem from="1532506159505" duration="1734000" />
+      <workItem from="1532507973365" duration="1347000" />
+      <workItem from="1532529330508" duration="762000" />
+      <workItem from="1532614364145" duration="1880000" />
+      <workItem from="1532616263063" duration="1793000" />
+      <workItem from="1532618076463" duration="1914000" />
+      <workItem from="1532620217044" duration="1677000" />
+      <workItem from="1532653333865" duration="728000" />
+      <workItem from="1532660932764" duration="604000" />
+      <workItem from="1532674756675" duration="1182000" />
+      <workItem from="1532680832353" duration="599000" />
+      <workItem from="1532702003168" duration="1800000" />
+      <workItem from="1532774924740" duration="1152000" />
+      <workItem from="1532776475978" duration="1745000" />
+      <workItem from="1532779097133" duration="643000" />
+      <workItem from="1532781013297" duration="599000" />
+      <workItem from="1532782808024" duration="1790000" />
+      <workItem from="1532784614771" duration="599000" />
+      <workItem from="1532789308217" duration="599000" />
+      <workItem from="1532791120402" duration="651000" />
+      <workItem from="1532792965476" duration="272000" />
+      <workItem from="1532849805420" duration="1510000" />
+      <workItem from="1532851465125" duration="1339000" />
+      <workItem from="1532853277463" duration="1692000" />
+      <workItem from="1532865695905" duration="1201000" />
+      <workItem from="1532867647778" duration="1790000" />
+      <workItem from="1532869469891" duration="1626000" />
+      <workItem from="1532872104450" duration="1396000" />
+      <workItem from="1532873958413" duration="1359000" />
+      <workItem from="1532912591131" duration="599000" />
+      <workItem from="1532922292616" duration="627000" />
+      <workItem from="1532929249009" duration="1795000" />
+      <workItem from="1532931069499" duration="1797000" />
+      <workItem from="1532932896171" duration="1815000" />
+      <workItem from="1532934733497" duration="1795000" />
+      <workItem from="1532936556669" duration="1806000" />
+      <workItem from="1532938381311" duration="1794000" />
+      <workItem from="1532940203121" duration="1230000" />
+      <workItem from="1532950388299" duration="1556000" />
+      <workItem from="1532952274452" duration="754000" />
+      <workItem from="1532955452133" duration="1792000" />
+      <workItem from="1532957282933" duration="1791000" />
+      <workItem from="1532959100093" duration="1791000" />
+      <workItem from="1532960918936" duration="1795000" />
+      <workItem from="1532962739547" duration="341000" />
+      <workItem from="1533000697996" duration="72000" />
+      <workItem from="1533000827196" duration="1793000" />
+      <workItem from="1533002639118" duration="662000" />
+      <workItem from="1533015256828" duration="1793000" />
+      <workItem from="1533017069242" duration="594000" />
+      <workItem from="1533017678528" duration="1794000" />
+      <workItem from="1533019504128" duration="1794000" />
+      <workItem from="1533021322713" duration="1793000" />
+      <workItem from="1533023139097" duration="1793000" />
+      <workItem from="1533024950582" duration="1796000" />
+      <workItem from="1533026764680" duration="799000" />
+      <workItem from="1533036203656" duration="2110000" />
+      <workItem from="1533038649966" duration="1543000" />
+      <workItem from="1533040990463" duration="1339000" />
+      <workItem from="1533042806632" duration="1793000" />
+      <workItem from="1533044626710" duration="1793000" />
+      <workItem from="1533046439292" duration="1793000" />
+      <workItem from="1533048251772" duration="368000" />
+      <workItem from="1533084928619" duration="1613000" />
+      <workItem from="1533086735841" duration="700000" />
+      <workItem from="1533089572640" duration="599000" />
+      <workItem from="1533092122561" duration="1253000" />
+      <workItem from="1533093962259" duration="599000" />
+      <workItem from="1533105185601" duration="1793000" />
+      <workItem from="1533107002522" duration="1793000" />
+      <workItem from="1533108816806" duration="1794000" />
+      <workItem from="1533110630786" duration="1794000" />
+      <workItem from="1533112448766" duration="1600000" />
+      <workItem from="1533131801717" duration="1195000" />
+    </task>
+    <task id="LOCAL-00001" summary="3d的透明旋转立方体，先将立方体6个面水平垂直居中，有6种方法，其中用margin-auto的方法剧中，但是要先定位并把上下左右设为0">
+      <created>1532010980754</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1532010980754</updated>
+    </task>
+    <task id="LOCAL-00002" summary="立方体立体化，在之前基础上将六个面分别立体，并在父元素使用3D视角，但也出现了很多问题">
+      <created>1532101267784</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1532101267784</updated>
+    </task>
+    <task id="LOCAL-00003" summary="右键菜单，使用js">
+      <created>1532183292552</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1532183292552</updated>
+    </task>
+    <task id="LOCAL-00004" summary="右键菜单，使用js">
+      <created>1532183580679</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1532183580679</updated>
+    </task>
+    <task id="LOCAL-00005" summary="弹性魔盒，flex">
+      <created>1532270054768</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1532270054768</updated>
+    </task>
+    <task id="LOCAL-00006" summary="选项卡">
+      <created>1532355082289</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1532355082289</updated>
+    </task>
+    <task id="LOCAL-00007" summary="轮播图">
+      <created>1532441708438</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1532441708438</updated>
+    </task>
+    <task id="LOCAL-00008" summary="轮播图渐入渐出">
+      <created>1532507571382</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1532507571383</updated>
+    </task>
+    <task id="LOCAL-00009" summary="放大">
+      <created>1532529355655</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1532529355655</updated>
+    </task>
+    <task id="LOCAL-00010" summary="放大">
+      <created>1532619382456</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1532619382456</updated>
+    </task>
+    <task id="LOCAL-00011" summary="放大">
+      <created>1532703765285</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1532703765285</updated>
+    </task>
+    <task id="LOCAL-00012" summary="donghua">
+      <created>1532793175867</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1532793175867</updated>
+    </task>
+    <task id="LOCAL-00013" summary="donghua">
+      <created>1532874848074</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1532874848074</updated>
+    </task>
+    <task id="LOCAL-00014" summary="donghua">
+      <created>1532962696564</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1532962696564</updated>
+    </task>
+    <task id="LOCAL-00015" summary="donghua">
+      <created>1533048407055</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1533048407055</updated>
+    </task>
+    <task id="LOCAL-00016" summary="donghua">
+      <created>1533132271470</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1533132271470</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="154640000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.33894584" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" weight="0.329653" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.329653" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Messages" order="7" weight="0.329653" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" />
+    </layout>
+    <layout-to-restore>
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2715959" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="10" visible="true" weight="0.329653" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.329653" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="3d的透明旋转立方体，先将立方体6个面水平垂直居中，有6种方法，其中用margin-auto的方法剧中，但是要先定位并把上下左右设为0" />
+    <MESSAGE value="立方体立体化" />
+    <MESSAGE value="立方体立体化，在之前基础上将六个面分别立体，并在父元素使用3D视角，但也出现了很多问题" />
+    <MESSAGE value="右键菜单，使用js" />
+    <MESSAGE value="弹性魔盒，flex" />
+    <MESSAGE value="选项卡" />
+    <MESSAGE value="轮播图" />
+    <MESSAGE value="轮播图渐入渐出" />
+    <MESSAGE value="放大" />
+    <MESSAGE value="donghua" />
+    <option name="LAST_COMMIT_MESSAGE" value="donghua" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/js.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1159">
+          <caret line="61" selection-start-line="61" selection-end-line="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xuanxiang.hyml.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="570">
+          <caret line="37" column="49" selection-start-line="37" selection-start-column="49" selection-end-line="37" selection-end-column="49" />
+          <caret line="30" column="34" selection-start-line="30" selection-start-column="34" selection-end-line="30" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lunbotu.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1995">
+          <caret line="105" selection-start-line="105" selection-end-line="105" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cri.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1178">
+          <caret line="62" column="7" selection-start-line="62" selection-start-column="7" selection-end-line="62" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/3d.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="81" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/3d2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1444">
+          <caret line="76" column="33" lean-forward="true" selection-start-line="76" selection-start-column="33" selection-end-line="76" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/10.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" column="38" selection-start-line="11" selection-start-column="38" selection-end-line="11" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cri.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1178">
+          <caret line="62" column="7" selection-start-line="62" selection-start-column="7" selection-end-line="62" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/3d.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="81" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/3d2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1444">
+          <caret line="76" column="33" lean-forward="true" selection-start-line="76" selection-start-column="33" selection-end-line="76" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/10.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" column="38" lean-forward="true" selection-start-line="11" selection-start-column="38" selection-end-line="11" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scr.html" />
+    <entry file="file://$PROJECT_DIR$/cri.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1178">
+          <caret line="62" column="7" selection-start-line="62" selection-start-column="7" selection-end-line="62" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/3d.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="81" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/3d2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1539">
+          <caret line="81" column="7" selection-start-line="81" selection-start-column="7" selection-end-line="81" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scr.html" />
+    <entry file="file://$PROJECT_DIR$/cri.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1178">
+          <caret line="62" column="7" selection-start-line="62" selection-start-column="7" selection-end-line="62" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/3d.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="14" column="25" selection-start-line="14" selection-start-column="25" selection-end-line="14" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scr.html" />
+    <entry file="file://$PROJECT_DIR$/cri.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1178">
+          <caret line="62" column="7" selection-start-line="62" selection-start-column="7" selection-end-line="62" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scr.html" />
+    <entry file="file://$PROJECT_DIR$/10.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" column="38" selection-start-line="11" selection-start-column="38" selection-end-line="11" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/img/lunbo2.html" />
+    <entry file="file://$PROJECT_DIR$/mohe.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="950">
+          <caret line="50" selection-start-line="50" selection-end-line="51" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/3d2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1273">
+          <caret line="67" column="57" selection-start-line="67" selection-start-column="57" selection-end-line="67" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/3d.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="22" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/donghua.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="931">
+          <caret line="49" column="7" selection-start-line="49" selection-start-column="7" selection-end-line="49" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xuanxiangka.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1254">
+          <caret line="66" column="42" selection-start-line="66" selection-start-column="42" selection-end-line="66" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lunbo1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1007">
+          <caret line="53" column="9" selection-start-line="53" selection-start-column="9" selection-end-line="53" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cri.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1178">
+          <caret line="62" column="7" selection-start-line="62" selection-start-column="7" selection-end-line="62" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/jQuery练习/1_表单/1-文本框得到失去焦点/demo1.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret lean-forward="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wenbengaodu.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1273">
+          <caret line="67" column="9" selection-start-line="67" selection-start-column="9" selection-end-line="67" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/jQuery练习/1_表单/2-多行文本框高度变化/demo1_2.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="45" selection-start-line="4" selection-start-column="45" selection-end-line="4" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/jQuery练习/3_选项卡/1-选项卡/._demo1.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret lean-forward="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/jQuery练习/3_选项卡/1-选项卡/demo1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="409">
+          <caret line="38" column="81" lean-forward="true" selection-start-line="38" selection-start-column="81" selection-end-line="38" selection-end-column="81" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/jQuery练习/3_选项卡/1-选项卡/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="8" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/neirongguolv.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="505">
+          <caret line="122" column="6" lean-forward="true" selection-start-line="122" selection-start-column="6" selection-end-line="122" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/jQuery练习/6_广告/2-雅虎首页焦点图轮播/css/bd.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="53" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/jQuery练习/3_选项卡/1-选项卡/demo1.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="1" column="24" selection-start-line="1" selection-start-column="24" selection-end-line="1" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/jQuery练习/3_选项卡/1-选项卡/demo2.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="40" selection-start-line="8" selection-start-column="40" selection-end-line="8" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jquery-1.12.4.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="167105">
+          <caret line="8807" column="4" selection-start-line="8807" selection-start-column="4" selection-end-line="8807" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/guangao.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1919">
+          <caret line="101" column="14" lean-forward="true" selection-start-line="101" selection-start-column="14" selection-end-line="101" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jq3.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="817">
+          <caret line="43" selection-start-line="43" selection-end-line="43" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jq1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="931">
+          <caret line="49" column="30" selection-start-line="49" selection-start-column="30" selection-end-line="49" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1159">
+          <caret line="61" selection-start-line="61" selection-end-line="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jq-1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="893">
+          <caret line="47" column="3" selection-start-line="47" selection-start-column="3" selection-end-line="47" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fadajng.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1843">
+          <caret line="97" column="2" selection-start-line="97" selection-start-column="2" selection-end-line="97" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lunbotu.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2394">
+          <caret line="126" column="12" selection-start-line="126" selection-start-column="12" selection-end-line="127" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xuanxiang.hyml.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="570">
+          <caret line="37" column="49" selection-start-line="37" selection-start-column="49" selection-end-line="37" selection-end-column="49" />
+          <caret line="30" column="34" selection-start-line="30" selection-start-column="34" selection-end-line="30" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/响应式.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1292">
+          <caret line="68" column="24" selection-start-line="68" selection-start-column="24" selection-end-line="68" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xingabke.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="57" column="25" selection-start-line="57" selection-start-column="25" selection-end-line="57" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
