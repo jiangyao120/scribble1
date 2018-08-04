@@ -1,0 +1,85 @@
+
+$color: #f00;
+$w: 200px;
+#div1{
+    width: $w;
+    height: $w;
+    background: $color;
+    .aa{
+        font-size: 12px;
+        .bb{
+            background: #cccccc;
+        }
+        &:hover{
+            background: #00ff00;
+        }
+    }
+}
+#div2{
+    color: $color;
+}
+#div3{
+    width: $w;
+}
+
+.dialog{
+    width: $w;
+    &-container{
+        height: $w;
+    }
+    &-title{
+        font-size: 18px;
+        &-close{
+            float: left;
+            background: {
+                color: $color;
+                image: url(xx.jpg);
+                position: right top;
+            };
+            border: {
+                left: {
+                    color: transparent;
+                    style: solid;
+                    width: 2px;
+                }
+            }
+        }
+    }
+}
+
+$bg: background;
+
+#div4{
+    #{$bg}: $color;
+}
+
+@mixin xx($num, $c:#ccc) {
+    width: $num;
+    height: $num;
+    background: $c;
+}
+
+#div5{
+    @include xx($c:#f00, $num:200px);
+    font-size: 20px;
+}
+
+#div6{
+    @include xx(300px, #0f0);
+}
+@mixin div($x, $y) {
+    width: $x;
+    height: $y;
+}
+#div7{
+    @include div(40px, 50px)
+}
+
+$m:(width1:40px,height1:50px);
+//  @function new($x1){
+        @for $x from 8 to 10 {
+            .div-#{$x}{
+             width: map-get($m,width1)
+            }
+        }
+// }
