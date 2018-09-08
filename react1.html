@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script src="react.production.min.js"></script>
+    <script src="react-dom.production.min.js"></script>
+    <script src="browser.min.js"></script>
+</head>
+<body>
+    <div id="root"></div>
+    <div id="roots"></div>
+    <div id="rootor"></div>
+    <script type="text/babel">
+        function Person(props){
+            return(
+                <h1>hellow{props.text1}</h1>
+            )
+        }
+        let text='world';
+        ReactDOM.render(
+          <Person text1={text}/>,
+          document.getElementById('root')
+        );
+        class Who extends React.Component{
+            constructor(props){
+                super(props);
+                this.state={
+
+                }
+            }
+            render(){
+                return(
+                    <h1>hello{this.props.info}</h1>
+                )
+            }
+        }
+        ReactDOM.render(
+            <Who info={'world'}/>,
+            document.getElementById('roots')
+        );
+        class Soild extends React.Component{
+            constructor(props){
+                super(props);
+                this.state={
+                    num:this.props.num
+                }
+                this.change=this.change.bind(this);
+            }
+            change(){
+                this.setState({
+                    num:this.state.num+10
+                })
+                this.props.change();
+            }
+            render(){
+                return(
+                    <div>
+                        <h1>将军兵数:{this.state.num}</h1>
+                        <button onClick={this.change}>change</button>
+                    </div>
+                    
+                )
+            }
+        }
+        class Add extends React.Component{
+            constructor(props){
+                super(props);
+                this.state={
+                    num:100,
+                    
+                }
+                this.changeF=this.changeF.bind(this)
+            }
+            changeF(){
+                this.setState({
+                    num:this.state.num-10
+                })
+            }
+            render(){
+                return(
+                    <div>
+                    <p>国王兵数:{this.state.num}</p>
+                    <Soild change={this.changeF} num={100}/>
+                    </div>
+                )
+            }
+        }
+        ReactDOM.render(
+            <Add/>,
+            document.getElementById('rootor')
+        );
+      </script>
+</body>
+</html>
