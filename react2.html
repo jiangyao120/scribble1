@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script src="react.production.min.js"></script>
+    <script src="react-dom.production.min.js"></script>
+    <script src="browser.min.js"></script>
+    <style>
+        .bgcolor{
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            display: none;
+            background-color: rgba(0, 0, 0, .3);
+        }
+        .contente{
+            width: 300px;
+            height: 200px;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            margin-top: -150px;
+            margin-left: -200px;
+            background: #fff;
+        }
+        header{
+            background: #000;
+            color: #fff;
+            height: 30px;
+            padding: 5px;
+        }
+        header div:nth-child(1){
+            float: left;
+        }
+        header div:nth-child(2){
+            float: right;
+        }
+    </style>
+</head>
+<body>
+    <div id="root"></div>
+    <script type="text/babel">
+    class Father extends React.Component{
+        constructor(props){
+            super(props);
+            this.state={
+                type:'login',
+                isShow:false
+            }
+            
+        }
+        open(type){
+           
+                this.setState({
+                 type:type,
+                 isShow:true
+                })
+           
+        }
+        change(){
+            this.setState({
+                isShow:false
+            })
+        }
+        render(){
+            return(
+                <div>
+                    <Boy>
+                        <button onClick={this.open.bind(this,'login')}>登陆</button>
+                        <button onClick={this.open.bind(this,'signup')}>注册</button>
+                    </Boy>
+                    <Children changeF={this.change.bind(this)} isShow={this.state.isShow} title={this.state.type}></Children>
+                </div>
+            )
+        }
+    }
+    function Boy(props){
+        return(
+            <div>
+            {props.children}
+            </div>
+        )
+    }
+    function Children(props){
+        let contents=null;
+        if(props.title=='login'){
+            contents=<Login/>
+        }
+        else{
+            contents=<Signup/>
+        }
+        return(
+            <div className="bgcolor" style={{display:props.isShow?'block':'none'}}>
+                <div className="contente">
+                    <header>
+                        <div>{props.title}</div>
+                        <div onClick={props.changeF}>X</div>
+                    </header>
+                    {props.title == 'login' && <Login/>}
+                </div>
+            </div>
+        )
+    }
+    class Login extends React.Component{
+      componentWillUnmount() {
+        console.log('componentWillUnmount')
+      }
+      
+      render(){
+        return(
+          <h1>登陆</h1>
+        )
+      }
+    }
+    function Signup(props){
+      return(
+        <h1>注册</h1>
+      )
+    }
+   
+    ReactDOM.render(
+        <Father/>,
+        document.getElementById('root')
+    );
+    
+    </script>
+</body>
+</html>
