@@ -1,0 +1,1086 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="css\font_938928_1qtuhtpyp0z\demo.css">
+    <link rel="stylesheet" href="css\font_938928_1qtuhtpyp0z\iconfont.css">
+    <style>
+        html {
+            height: 100%;
+        }
+
+        * {
+            padding: 0;
+            margin: 0;
+        }
+
+        li {
+            list-style: none;
+        }
+
+        #top {
+            width: 30%;
+            height: 15%;
+            overflow: hidden;
+            position: absolute;
+            left: 50%;
+            top: 0;
+            transform: translateX(-50%);
+            z-index: 1;
+            opacity: 0.6;
+            border-radius: 20px;
+            transition: all 1s ease;
+        }
+
+
+
+        #top-left {
+            width: 100%;
+            font-size: 40px;
+            height: 100%;
+            position: relative;
+
+        }
+
+        #top-left span {
+            overflow: hidden;
+            position: absolute;
+            left: 100%;
+
+            height: 100%;
+            line-height: 200%;
+            word-break: keep-all;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+        }
+
+        #mask li {
+            width: 100px;
+            margin: 10px;
+            color: #fff;
+            font-size: 24px;
+            text-align: center;
+            height: 50px;
+            line-height: 50px;
+            float: left;
+            padding-left: 10px;
+            padding-right: 10px;
+            cursor: pointer;
+        }
+
+        #mask span {
+            display: inline-block;
+            position: relative;
+        }
+
+        #mask span::after {
+            display: block;
+            width: 0;
+            height: 3px;
+            background: red;
+            content: '';
+            position: absolute;
+            top: 50px;
+            left: 0px;
+        }
+
+        #mask ul {
+            position: absolute;
+            top: 20%;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+
+        #mask li:hover span::after {
+            width: 100%;
+            animation: lineIn 0.5s forwards;
+            -webkit-animation: lineIn 0.5s forwards;
+            /* Safari 和 Chrome */
+            animation: lineIn 0.5s forwards;
+            -moz-animation: lineIn 0.5s forwards;
+            /* Firefox */
+            -o-animation: lineIn 0.5s forwards;
+        }
+
+        #mask li:hover {
+            color: red;
+        }
+
+        html body {
+            width: 100%;
+            height: 100%;
+            
+        }
+
+        #shou {
+            width: 100%;
+            height: 100%;
+        }
+
+        #first {
+            height: 100%;
+            position: relative;
+            width: 100%;
+            overflow: hidden;
+        }
+
+        .first-box {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            top: 50%;
+            left: 50%;
+            animation: move-shou 10s linear infinite;
+            transform: translate(-50%, -50%);
+            z-index: 1;
+        }
+        #bgfirst{
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            animation: move-bg 10s linear infinite;
+            width: 100%;
+            height: 100%;
+        }
+        .nav-boxed{
+            border-radius: 50%;
+            width: 80px;
+            height: 80px;
+            position: absolute;
+        }
+
+        #first .nav-box {
+            transition: all 1s ease;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            opacity: 0.9;
+            border-radius: 50%;
+            text-align: center;
+            color: #fff;
+        }
+
+        #xuanxiang {
+            width: 100%;
+            height: 100%;
+        }
+
+        #xuanxiang p {
+            margin-top: 150px;
+            transition: all 1s ease;
+            margin-bottom: 60px;
+            font-size: 30px;
+            text-align: center;
+            font-weight: bold;
+        }
+
+        #masked {
+            width: 100%;
+            height: 100%;
+            position: relative;
+            margin-top: -635px;
+            transition: all 1s ease;
+            overflow: hidden;
+        }
+
+        #masked a {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%,-50%);
+            transition: all 1s ease;
+            cursor: pointer;
+        }
+
+        #font {
+            margin-left: 50%;
+            height: 100px;
+            transform: translateX(-210px);
+        }
+
+        .li {
+            float: left;
+            margin-left: 20px;
+            margin-right: 20px;
+            border: #eeeeee solid 1px;
+            border-radius: 10px;
+            width: 100px;
+            text-align: center;
+            height: 30px;
+            line-height: 30px;
+            cursor: pointer;
+        }
+
+        #font li:hover {
+            color: #fff;
+            background: red;
+        }
+
+        #xuan li {
+            width: 270px;
+            height: 180px;
+            overflow: hidden;
+            margin-left: 20px;
+            margin-right: 20px;
+            cursor: pointer;
+        }
+
+        #xuan {
+            margin-top: 100px;
+            height: 300px;
+            transition: all 1s ease;
+            position: relative;
+        }
+
+        #xuan img {
+            transition: all 1s ease;
+        }
+
+        #xuan img:hover {
+            transform: translateX(-10px);
+        }
+
+        .xuan-img {
+            width: 0%;
+            display: flex;
+            position: absolute;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+
+
+        .select {
+            width: 930PX;
+            transition: all 1s ease;
+
+
+        }
+
+        .caidan {
+            opacity: 1;
+            background-size: cover;
+            transition: all 1s ease;
+            position: fixed;
+            top: 50px;
+            right: 50px;
+            width: 30px;
+            height: 30px;
+            line-height: 30px;
+            text-align: center;
+        }
+
+        .caidan i {
+            font-size: 30px;
+        }
+
+        .shanchu i {
+            font-size: 25px;
+        }
+        #return{
+            cursor: pointer;
+            position: absolute;
+            z-index: 1;
+            top: 10%;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+        .shanchu {
+            color: #fff;
+            background-size: cover;
+            z-index: 1;
+            position: fixed;
+            top: 50px;
+            right: 50px;
+            width: 30px;
+            height: 30px;
+        }
+
+        #contain {
+            width: 100%;
+            height: 100%;
+            
+        }
+
+        #mask {
+            width: 20%;
+            position: fixed;
+            top: 0;
+            right: 0;
+            bottom: 0;
+            background: #000;
+            z-index: -1;
+            text-align: center;
+            transition: all 1s ease;
+            margin-right: -20%;
+        }
+
+        #myjian {
+            position: relative;
+            width: 100%;
+            height: 700px;
+            margin-top: 200px;
+            transition: all 1s ease;
+            overflow: hidden;
+        }
+
+        #myjian-img {
+            width: 100%;
+            height: 700px;
+            background-size: contain;
+            background: url('./imgs/AD0IncmbBRACGAAg8Y_fvgUo8I_F2wIwgA84oAY.jpg') no-repeat center center;
+        }
+
+        #myname {
+            color: #fff;
+            font-size: 30px;
+            text-align: center;
+            font-weight: bold;
+            position: absolute;
+            top: 100px;
+            left: 60%;
+            transition: all 1s ease;
+            margin-left: 500px;
+        }
+
+        #myname p {
+            width: 500px;
+            margin-bottom: 40px;
+        }
+
+        #myname span {
+            display: inline-block;
+            height: 50px;
+            line-height: 50px;
+            width: 250px;
+            overflow: hidden;
+        }
+
+        #wrap {
+            width: 100%;
+            height: 100%;
+            transition: all 1s ease;
+        }
+
+        #wrap.wrap {
+            width: 80%;
+            transition: all 1s ease;
+        }
+
+        #gerenjineng {
+            width: 100%;
+            position: relative;
+            height: 1000px;
+        }
+
+        #geren-left {
+            position: sticky;
+            top: 0;
+            height: 600px;
+        }
+        #gerenleft-box{
+            position: absolute;
+            overflow: hidden;
+            top: 0;
+            left: 0;
+            right: 50%;
+        }
+        .geren-right {
+            top: 0;
+            width: 50%;
+            position: absolute;
+            left: 50%;
+            height: 1000px;
+
+        }
+
+        #geren-left p {
+            margin-top: 100px;
+            font-size: 30px;
+            width: 100%;
+            text-align: center;
+        }
+
+        #neirong {
+            width: 80%;
+            height: 80%;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+
+        #neirong p {
+            font-size: 20px;
+            margin-bottom: 30px;
+        }
+
+        #nei-img {
+            margin-top: 20px;
+            width: 100%;
+            text-align: center;
+        }
+
+        #contact {
+            width: 100%;
+            height: 600px;
+            overflow: hidden;
+        }
+
+        #contact p {
+            width: 100%;
+            height: 30px;
+            text-align: center;
+            transition: all 1s ease;
+        }
+
+        #cont-p1 {
+            margin-top: 10%;
+        }
+
+        #cont-p2 {
+            margin-top: 10%;
+        }
+
+        #cont-img {
+            margin-top: 10%;
+            width: 100%;
+        }
+
+        #cont-box {
+            position: relative;
+            border: 5px black solid;
+            width: 30%;
+            height: 20%;
+            margin-top: -5%;
+            margin-left: 50%;
+            transform: translate(-50%);
+        }
+
+        #cont-img ul {
+            position: relative;
+            background: #fff;
+            width: 150px;
+            height: 150px;
+            margin-left: 50%;
+            transform: translateX(-50%);
+            z-index: 1;
+        }
+
+        #cont-img li {
+            transition: all 1s ease;
+            opacity: 0;
+            margin-top: 50%;
+            margin-left: 50%;
+            transform: translate(-50%, -50%);
+            position: absolute;
+        }
+
+        #cont-nav {
+            width: 100%;
+            position: absolute;
+            bottom: 10px;
+            height: 20px;
+            display: flex;
+        }
+
+        #cont-nav li {
+            margin-left: 20px;
+            flex: 1;
+            width: 20px;
+            height: 20px;
+            float: left;
+            cursor: pointer;
+        }
+
+        #cont-nav img {
+            width: 20px;
+            height: 20px;
+        }
+
+        #cont-img li.img-select {
+            z-index: 1;
+            opacity: 1;
+        }
+
+        #first .nav-shou {
+            background: #005493;
+            width: 160px;
+            height: 160px;
+            top: 60%;
+            left: 30%;
+            cursor: pointer;
+        }
+
+
+        #first .nav-shou2 {
+            background: #317500;
+            top: 60%;
+            left: 45%;
+            width: 160px;
+            height: 160px;
+            position: absolute;
+            cursor: pointer;
+        }
+        @-webkit-keyframes reverseRotataZ{
+    0%{-webkit-transform: rotateZ(0deg);}
+    100%{-webkit-transform: rotateZ(-360deg);}
+}
+@-webkit-keyframes rotataZ{
+    0%{-webkit-transform: rotateZ(0deg);}
+    100%{-webkit-transform: rotateZ(360deg);}
+}
+#musicControl {position: absolute;top: 5%;left: 1%; width: 200px;height: 200px;overflow: hidden; margin-top:0;display:block;z-index:2;}
+#musicControl a { margin: 50px auto; display: block; border-radius:50% ; width:100px;height:100px;overflow:hidden;background:url('imgs/109951163293243877.jpg') no-repeat;background-size:100%;}
+#musicControl .stoped {animation-play-state:running;}
+ .on { -webkit-animation: reverseRotataZ 10s linear infinite;animation-play-state:paused;animation-fill-mode:forwards;}
+#musicControl img{position: absolute;top: 0;left: 0;width: 200px;height: 200px;}
+
+        #first .nav-shou3 {
+            position: absolute;
+            top: 60%;
+            left: 60%;
+            background: #c10000;
+            width: 160px;
+            height: 160px;
+            line-height: 160px;
+            cursor: pointer;
+        }
+
+        #first .nav-shou4 {
+            position: absolute;
+            top: 60%;
+            left: 75%;
+            background: #790090;
+            width: 160px;
+            height: 160px;
+            line-height: 160px;
+            cursor: pointer;
+        }
+        #xuan-mask{
+            width:100%;
+            height: 100%;
+        }
+        #firstbox div.touch:hover {
+            opacity: 0.6;
+            width: 120px;
+            height: 120px;
+        }
+
+        .nav-box i {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+        #masked #mask-left{
+            transform:translate(0%,0%); position:absolute;top:0;left:0;width:50%;height:100%;cursor:url('imgs/icons/mipmap-mdpi/ic_launcher.png'),auto;
+        }
+       #masked #mask-right{
+           transform:translate(0%,0%); position:absolute;top:0;left:50%;width:50%;height:100%;cursor:url('imgs/icons (1)/android/mipmap-mdpi/ic_launcher.png'),auto;
+        }
+        @keyframes lineIn {
+            from {
+                width: 0;
+            }
+
+            to {
+                width: 100%;
+            }
+        }
+        @keyframes move-bg {
+            0% {
+                transform: translate(-50%, -50%);
+
+            }
+
+           
+
+            50% {
+                transform: translate(-45%, -50%);
+
+            }
+
+           
+
+            100% {
+
+                transform: translate(-50%, -50%)
+            }
+        }
+
+        @keyframes move-shou {
+            0% {
+                transform: translate(-50%, -45%);
+
+            }
+
+            25% {
+                transform: translate(-55%, -50%);
+
+            }
+
+            50% {
+                transform: translate(-50%, -55%);
+
+            }
+
+            75% {
+                transform: translate(-45%, -50%);
+            }
+
+            100% {
+
+                transform: translate(-50%, -45%)
+            }
+        }
+    </style>
+</head>
+
+<body id="body">
+
+    <div id="contain">
+        <div id="mask">
+            <div id="shanchu" class="shanchu"><i class="icon iconfont icon-shanchu"></i></div>
+            <ul>
+                <li><span id="shou">首页</span></li>
+                <li><span id="anli">项目展示</span></li>
+                <li><span id="myj">个人简介</span></li>
+                <li><span id="myjn">个人技能</span></li>
+                <li><span id="myxm">联系本人</span></li>
+            </ul>
+        </div>
+        <div id="top-right" style="z-index:1;" class="caidan"><i class="icon iconfont icon-caidan"></i></div>
+        <div id="wrap">
+            <div id="shou">
+                <div id="first">
+                    <div id="top">
+                        <div id="top-left">
+                            <span class="top-left">Hellow World! My name is Jiang Yao.</span>
+                        </div>
+                    </div>
+                    <span id="musicControl">
+                        <img src="imgs\3cc371ea2cef0a98e527782e824e9733.png" alt="">
+                        <a id="mc_play" class="on" onclick="play_music();">
+                            <audio id="music" loop="loop">
+                                <source src="imgs\M800004XePmv4CsaEq.mp3" type="audio/mpeg">
+                            </audio>
+                        </a>
+                    </span>
+                    <div id="firstbox" class="first-box">
+                        <div id="shou1" class="nav-box touch nav-shou">
+                            <i class="icon iconfont icon-xiangmu" style="font-size:50px;"></i></div>
+                        <div id="shou2" class="nav-box touch nav-shou2">
+                            <i class="icon iconfont icon-gerenxinxi-" style="font-size:50px;"></i></div>
+                        <div id="shou3" class="nav-box touch nav-shou3">
+                            <i class="icon iconfont icon-gerenjineng" style="font-size:50px;"></i></div>
+                        <div id="shou4" class="nav-box touch nav-shou4">
+                            <i class="icon iconfont icon-lianxifangshi" style="font-size:50px;"></i></div>
+                    </div>
+                    <div id="bgfirst">
+                        <div class="nav-boxed" style="background: #565656;top:30%;left: 20%;"></div>
+                        <div class="nav-boxed" style="background: #ab5800;top: 80%;left: 10%;"></div>
+                        <div class="nav-boxed" style="background: #c10000;top: 30%;left: 80%;"></div>
+                        <div class="nav-boxed" style="background: #ab5800;top: 80%;left: 50%;"></div>
+                        <div class="nav-boxed" style="background: #c10000;top: 80%;left: 85%;"></div>
+                    </div>
+
+                </div>
+            </div>
+            <div id="xuanxiang" style="overflow:hidden;">
+                <div id="masked">
+                    <p id="return" style="width:200px;height:50px;font-size:50px;margin:50px auto;">return</p>
+                    <a><img src=".\imgs\AD0IncmbBRACGAAgpKGfvgUoxNTBlQEwmAI4tAE.jpg" alt=""></a>
+                    <a><img src=".\imgs\AD0IncmbBRACGAAgpaGfvgUojdLpFzCYAji0AQ.jpg" alt=""></a>
+                    <a><img src=".\imgs\AD0IncmbBRACGAAgpKGfvgUoxNTBlQEwmAI4tAE.jpg" alt=""></a>
+                    <a><img src=".\imgs\AD0IncmbBRACGAAgpKGfvgUoxNTBlQEwmAI4tAE.jpg" alt=""></a>
+                    <a><img src=".\imgs\AD0IncmbBRACGAAgpKGfvgUoxNTBlQEwmAI4tAE.jpg" alt=""></a>
+                    <a><img src=".\imgs\AD0IncmbBRACGAAgpKGfvgUoxNTBlQEwmAI4tAE.jpg" alt=""></a>
+                    <a><img src=".\imgs\AD0IncmbBRACGAAgpKGfvgUoxNTBlQEwmAI4tAE.jpg" alt=""></a>
+                    <a><img src=".\imgs\AD0IncmbBRACGAAgpKGfvgUoxNTBlQEwmAI4tAE.jpg" alt=""></a>
+                    <a><img src=".\imgs\AD0IncmbBRACGAAgpKGfvgUoxNTBlQEwmAI4tAE.jpg" alt=""></a>
+                    <div id="mask-left"></div>
+                    <div id="mask-right"></div>
+                </div>
+                <div id="xuan-mask" style="overflow:hidden;">
+                    <p id="p">案例欣赏</p>
+                    <ul id="font">
+                        <li class="li selects">全部</li>
+                        <li class="li">手机端</li>
+                        <li class="li">vi配套</li>
+                    </ul>
+                    <div id="xuan">
+                        <ul class="xuan-img select">
+                            <li><img src=".\imgs\AD0IncmbBRACGAAgpKGfvgUoxNTBlQEwmAI4tAE.jpg" alt=""></li>
+                            <li><img src=".\imgs\AD0IncmbBRACGAAgpaGfvgUojdLpFzCYAji0AQ.jpg" alt=""></li>
+                            <li><img src=".\imgs\AD0IncmbBRACGAAgpaGfvgUojdLpFzCYAji0AQ.jpg" alt=""></li>
+                        </ul>
+                        <ul class="xuan-img">
+                            <li><img src=".\imgs\AD0IncmbBRACGAAgoqGfvgUov5XR6AUwmAI4tAE.jpg" alt=""></li>
+                            <li><img src=".\imgs\AD0IncmbBRACGAAgoKGfvgUogNL4xwYwmAI4tAE.jpg" alt=""></li>
+                            <li><img src=".\imgs\AD0IncmbBRACGAAgnqGfvgUo4umcrAMwmAI4tAE.jpg" alt=""></li>
+                        </ul>
+                        <ul class="xuan-img">
+                            <li><img src=".\imgs\AD0IncmbBRACGAAgmKGfvgUoiIWTFDCYAji0AQ.jpg" alt=""></li>
+                            <li><img src=".\imgs\AD0IncmbBRACGAAgmaGfvgUo9PmYzQQwmAI4tAE.jpg" alt=""></li>
+                            <li><img src=".\imgs\AD0IncmbBRACGAAgm6GfvgUo98_n8wUwmAI4tAE.jpg" alt=""></li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+            <div id="myjian">
+                <div id="myjian-img"></div>
+                <div id="myname">
+                    <p><span>姓名</span><span>姜尧</span></p>
+                    <p><span>年龄</span><span>22</span></p>
+                    <p><span>手机</span><span>13803672180</span></p>
+                    <p><span>住址</span><span>黑龙江省哈尔滨市</span></p>
+                    <p><span>学校</span><span>黑龙江大学</span></p>
+                </div>
+            </div>
+            <div id="gerenjineng">
+                <div id="geren-left">
+                    <div id="gerenleft-box">
+                        <p>个人技能</p>
+
+                    </div>
+
+                </div>
+                <div class="geren-right">
+                    <div id="neirong">
+                        <p>1.熟悉html和css页面布局；了解语义化标签，了解css3的多种动画样式，了解多种浏览器的兼容问题 ,代码能兼容主流浏览器</p>
+                        <p>2.熟悉原生js，了解其事件冒泡，事件捕捉，dom事件流，闭包等，了解ex6与js间的变化</p>
+                        <p>3.了解Ajax，Json，xml并了解他们各自的优缺点</p>
+                        <p>4.了解vue,react框架，了解移动端的rem布局响应式布局</p>
+                        <p>5.掌握jquery类组件库，了解jQuery与DOM操作及事件处理，了解动态绑定事件的原理。</p>
+                        <p>6.了解HTML5技术开发，熟悉响应式布局和弹性魔盒布局，了解CSS3动画技术</p>
+                        <p>7.了解JSONP和CORS等跨域解决方案</p>
+                        <p>8.熟悉git版本控制工具，进行代码管理，实现敏捷开发</p>
+                        <p>9.热爱前端，喜欢做出自己喜欢的炫酷样式，用代码表达自己的想象力</p>
+                        <div id="nei-img"><img src="imgs\work.svg" alt=""></div>
+                    </div>
+                </div>
+            </div>
+            <div id="contact">
+                <p id="cont-p1" style="font-size:30px;">CONTACT ME</p>
+                <P id="cont-p2" style="color:red;">扫码就可以联系到我啦！</P>
+                <div id="cont-img">
+                    <ul>
+                        <li class="img-select"><img src=".\imgs\qrCode.png" alt=""></li>
+                        <li><img src=".\imgs\qrCode.png" alt=""></li>
+                        <li><img src=".\imgs\qrCode.png" alt=""></li>
+                        <li><img src=".\imgs\qrCode.png" alt=""></li>
+                        <li><img src=".\imgs\qrCode.png" alt=""></li>
+                        <li><img src=".\imgs\qrCode.png" alt=""></li>
+                    </ul>
+                </div>
+                <div id="cont-box">
+                    <ul id="cont-nav">
+                        <li class="nav-select"><i class="icon iconfont icon-weixin"></i></li>
+                        <li><i class="icon iconfont icon-web-icon-"></i></li>
+                        <li><i class="icon iconfont icon-weibo"></i></li>
+                        <li><i class="icon iconfont icon-ai-phone"></i></li>
+                        <li><i class="icon iconfont icon-youxiang-"></i></li>
+                        <li><i class="icon iconfont icon-github"></i></li>
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+    <script src="jquery-1.12.4.js"></script>
+    <script>
+        var oLunbo = document.getElementById('first');
+        var oXuan = document.getElementById('xuan');
+        var aLi = oXuan.getElementsByTagName('li');
+        var oMasked = document.getElementById('masked');
+        var omaskleft = document.getElementById('mask-left');
+        var omaskrighted = document.getElementById('mask-right');
+        var aMaskdiv = oMasked.getElementsByTagName('a');
+        var oreturn = document.getElementById('return');
+        var oXuanmask = document.getElementById('xuan-mask');
+        var aUl = oXuan.getElementsByTagName('ul');
+        var oFont = document.getElementById('font');
+        var aLia = oFont.getElementsByTagName('li');
+        var oTopright = document.getElementById('top-right');
+        var oBody = document.getElementById('body');
+        var oMask = document.getElementById('mask');
+        var oTopleft = document.getElementById('top-left');
+        var oShanchu = document.getElementById('shanchu');
+        var aP = document.getElementById('p');
+        var oShou = document.getElementById('shou');
+        var oAnli = document.getElementById('anli');
+        var oMyj = document.getElementById('myj');
+        var oMyjian = document.getElementById('myjian');
+        var oxuanxiang = document.getElementById('xuanxiang');
+        var oMyname = document.getElementById('myname');
+        var oContact = document.getElementById('contact');
+        var oWrap = document.getElementById('wrap');
+        var aImg = oXuan.getElementsByTagName('li');
+        var oGeren = document.getElementById('gerenjineng');
+        var oZhezhao = document.getElementById('zhezhao');
+        var ogenReft = document.getElementById('geren-left');
+        var oMyjn = document.getElementById('myjn');
+        var oMyxm = document.getElementById('myxm');
+        var oCont1 = document.getElementById('cont-p1');
+        var oCont2 = document.getElementById('cont-p2');
+        var oContnav = document.getElementById('cont-nav');
+        var oContimg = document.getElementById('cont-img');
+        var aContnavli = oContnav.getElementsByTagName('li');
+        var aContimgli = oContimg.getElementsByTagName('li');
+        var atopP = oTopleft.getElementsByTagName('p');
+        var oTop = document.getElementById('top');
+        var ofirstbox = document.getElementById('firstbox');
+        var oshou1 = document.getElementById('shou1');
+        var oshou2 = document.getElementById('shou2');
+        var oshou3 = document.getElementById('shou3');
+        var oshou4 = document.getElementById('shou4');
+        var obgfirst = document.getElementById('bgfirst');
+        var oLunboheight = oLunbo.offsetHeight + 10;
+        var omjheight = oLunbo.offsetHeight + oxuanxiang.offsetHeight;
+        var omyjnheight = oLunbo.offsetHeight + oMyjian.offsetHeight + oxuanxiang.offsetHeight;
+        var omyxmheight = oLunbo.offsetHeight + oMyjian.offsetHeight + oGeren.offsetHeight + oxuanxiang.offsetHeight;
+        var Nowindex = 0;
+        var musicbox = document.getElementById('mc_play');
+        var music = document.getElementById('music');
+        var pla = false;
+        function play_music() {
+            if (pla != true) {
+                music.play();
+                musicbox.className = 'on' + ' stoped';
+                pla = true;
+            }
+            else {
+                music.pause();
+                musicbox.className = 'on';
+                pla = false;
+            }
+
+        }
+        // var otouch = $("#firstbox div.touch");
+        //首页效果图
+        oLunbo.onmousemove = function (ev) {
+
+            ev = ev || window.event;
+            var top = ev.clientY;
+            var left = ev.clientX;
+            var oLundnsY = top / oLunbo.offsetHeight - 1 / 2;
+            var oLundnsX = left / oLunbo.offsetWidth - 1 / 2;
+            var dnsY = oLundnsY * oLunbo.offsetHeight / 5;
+            var dnsX = oLundnsX * oLunbo.offsetWidth / 5;
+            obgfirst.style.top = -dnsY / 2 + 1 / 2 * oLunbo.offsetHeight + 'px';
+            obgfirst.style.left = -dnsX / 2 + 1 / 2 * oLunbo.offsetWidth + 'px';
+            ofirstbox.style.top = -dnsY + 1 / 2 * oLunbo.offsetHeight + 'px';
+            ofirstbox.style.left = -dnsX + 1 / 2 * oLunbo.offsetWidth + 'px';
+        }
+        //弹字幕
+        var timer = setTimeout(this.marquee, 2000);
+        function marquee() {
+            var scrollWidth = $('#top-left').width();
+            var textWidth = $('.top-left').width();
+            var i = scrollWidth;
+            setInterval(function () {
+                i--;
+                if (i < -textWidth) {
+                    i = scrollWidth;
+                }
+                $('.top-left').animate({ 'left': i + 'px' }, 20);
+            }, 20);
+        }
+
+        oshou1.onclick = function () {
+            Go(oLunboheight);
+            // oTopright.style.display = 'block';
+        }
+        oshou2.onclick = function () {
+            Go(omjheight);
+        }
+        oshou3.onclick = function () {
+            Go(omyjnheight);
+        }
+        oshou4.onclick = function () {
+            Go(3000);
+        }
+        oShou.onclick = function () {
+            oShanchu.onclick();
+            Go(0);
+        }
+        oAnli.onclick = function () {
+            oShanchu.onclick();
+            Go(oLunboheight);
+        }
+        oMyj.onclick = function () {
+
+            oShanchu.onclick();
+            Go(omjheight);
+        }
+        oMyjn.onclick = function () {
+
+            oShanchu.onclick();
+            Go(omyjnheight);
+        }
+        oMyxm.onclick = function () {
+
+            oShanchu.onclick();
+            Go(2935);
+        }
+        oreturn.onclick = function () {
+            oMasked.style.marginTop = '-50%';
+            oXuanmask.style.marginTop = '0';
+        }
+        var maskindex = 1;
+        for (let i = 0; i < aLi.length; i++) {
+            aLi[i].index = i;
+            aMaskdiv[i].style.zIndex = '0';
+            aLi[i].onclick = function () {
+                for (let j = 0; j < aLi.length; j++) {
+                    aMaskdiv[j].style.zIndex = '0';
+                    aMaskdiv[j].style.opacity = '0';
+                }
+                oXuanmask.style.marginTop = '100%';
+                maskindex = this.index;
+                oMasked.style.marginTop = '0%';
+                aMaskdiv[maskindex].style.zIndex = '1';
+                aMaskdiv[maskindex].style.opacity = '1';
+                omaskleft.onclick = function () {
+                    aMaskdiv[maskindex].style.zIndex = '0';
+                    aMaskdiv[maskindex].style.opacity = '0'
+                    if (maskindex < 1) {
+                        maskindex = aLi.length;
+                    }
+                    maskindex--;
+                    console.log(maskindex);
+                    goTomask(maskindex);
+                }
+                omaskrighted.onclick = function () {
+                    aMaskdiv[maskindex].style.zIndex = '0';
+                    aMaskdiv[maskindex].style.opacity = '0'
+                    if (maskindex >= aLi.length - 1) {
+                        maskindex = -1;
+                    }
+                    maskindex++;
+                    goTomask(maskindex);
+                }
+            }
+        }
+        function goTomask(i) {
+            aMaskdiv[i].style.zIndex = '1';
+            aMaskdiv[i].style.opacity = '1'
+        }
+        //预处理
+
+        window.onload = function () {
+            // oTopleft.className += 'topleft';
+
+        }
+
+        //滚动监听
+        window.onscroll = function () {
+            let scr = document.documentElement.scrollTop || document.body.scrollTop;
+            console.log(scr);
+            if (scr >= 450) {
+                aP.style.marginTop = '60' + 'px';
+            }
+            if (scr >= 600) {
+                oXuan.style.marginTop = '0';
+            }
+            if (scr >= 820) {
+                oMyjian.style.marginTop = '0';
+            }
+            if (scr >= 1070) {
+                oMyname.style.marginLeft = '-50' + 'px';
+            }
+            if (scr >= 2465) {
+                ogenReft.style.top = "";
+                ogenReft.style.bottom = '0';
+            }
+            if (scr >= 2560) {
+                oCont1.style.marginTop = '5%';
+                oCont2.style.marginTop = '2%';
+            }
+
+        }
+        //滚动条下滑
+        function Go(res) {
+            timertiao = setInterval("goTo('" + res + "')", 1);
+        }
+        function goTo(res) {
+            var scr = document.documentElement.scrollTop || document.body.scrollTop;
+            if (scr <= res) {
+                scr += 10;
+                if (scr <= res) {
+                    window.scrollTo(0, scr);
+                }
+                else {
+                    clearInterval(timertiao);
+                }
+            }
+            else {
+                scr -= 10;
+                if (scr > res) {
+                    window.scrollTo(0, scr);
+                }
+                else {
+                    clearInterval(timertiao);
+                }
+            }
+        }
+        //关闭弹窗
+        oShanchu.onclick = function () {
+            oMask.style.marginRight = '-20%';
+            oTopright.style.opacity = '1';
+            oWrap.className = ''
+            oTopright.style.zIndex = '1';
+            this.style.opacity = '0';
+        }
+        //弹窗打开
+        oTopright.onclick = function () {
+            oShanchu.style.opacity = '1';
+            oMask.style.marginRight = '0';
+            oMask.style.zIndex = '1';
+            oWrap.className += 'wrap'
+            this.style.opacity = '0';
+            this.style.zIndex = '0';
+        }
+        //轮播图
+
+
+
+
+        //选项卡
+        for (let i = 0; i < aLia.length; i++) {
+            aLia[i].index = i;
+            aLia[i].onmouseover = function () {
+                for (let j = 0; j < aUl.length; j++) {
+                    aUl[j].className = 'xuan-img';
+                    aLia[j].className = 'li';
+                }
+                this.className += ' selects';
+                aUl[this.index].className += ' select';
+            }
+        }
+        for (let i = 0; i < aContnavli.length; i++) {
+            aContnavli[i].index = i;
+            aContnavli[i].onmouseover = function () {
+                for (let j = 0; j < aContimgli.length; j++) {
+                    aContimgli[j].className = '';
+                    aContnavli[j].className = '';
+                }
+                this.className += '';
+                aContimgli[this.index].className += 'img-select';
+            }
+        }
+
+        //zhanhuan
+
+    </script>
+</body>
+
+</html>
