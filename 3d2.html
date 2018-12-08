@@ -2,81 +2,99 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
     <style>
-        html{
-            height: 100%;}
-
-        body{
+        *{
+            padding: 0;
             margin: 0;
-            height: 100%;
-            perspective: 1000px;
-            perspective-origin: 50% 50%;
-            background: #000;
-
         }
-        .wrapper{
-            position: relative;
-            height: 100%;
-            /*transform-style: preserve-3d;*/
-
-
-
+    .body{
+        width: 100%;
+        height: 100%;
+        display: block;
+        background: #000000;
+        perspective: 1000px;
+        perspective-origin: 50% 50%;
+        overflow: hidden;
+    }
+    .contain{
+        position: relative;
+        width: 200px;
+        height: 200px;
+        margin: 200px auto;
+        transform-style: preserve-3d;
+        animation: ratate 5s linear infinite;
+    }
+    @keyframes ratate{
+        to{
+            transform: rotateY(360deg)
         }
-        .box{
-            position: absolute;
-            width: 200px;
-            height: 200px;
-            background: #ccc;
-            opacity: .2;
-            font-size: 80px;
-            text-align: center;
-            line-height: 200px;
-            top: 0;
-            left: 0;
-            right: 0;
-            bottom: 0;
-            margin: auto auto;
-
-
-
+    }
+    @keyframes snows{
+        0%{
+            background-position: 0 0,0 0;
         }
-
-        .one{
-            transform: rotateY(-90deg) translateZ(100px);
-            /*transform: translateX(-100px) rotateY(-80deg) ;*/
+        100%{
+            background-position: 500px 500px,1000px 500px;
         }
+    }
+    .img{
+        display: block;
+        width: 100%;
+    }
+    .cude{
+        position: absolute;
+        width: 200px;
+        height: 200px;
+        background: #fff;
+        opacity: 0.6;
+        top: 0;
+        left: 0;
 
-        .two{
-            transform: rotateY(90deg) translateZ(100px);
-        }
-
-        .three{
-            transform: rotateX(90deg) translateZ(100px);
-        }
-
-        .four{
-            transform: rotateX(-90deg) translateZ(100px);
-        }
-
-        .five{
-            transform: rotateY(180deg) translateZ(100px);
-        }
-
-        .six{
-            transform: translateZ(100px);001{
-            transform: rotateY(-90deg) translateZ(100px);
-        }
+    }
+    .one{
+        transform: translateZ(100px);
+    }
+    .two{
+        transform: translateZ(-100px);
+    }
+    .three{
+        transform: rotateY(90deg) translateZ(100px);
+    }
+    .four{
+        transform: rotateY(-90deg) translateZ(100px);
+    }
+    .five{
+        transform: rotateX(90deg) translateZ(100px);
+    }
+    .six{
+        transform: rotateX(-90deg) translateZ(100px);
+    }
+    .snow{
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: url(imgs/1516259733737091.png), url('imgs/1516259779551452.png');
+        animation: 1s snows linear infinite;
+    }
     </style>
 </head>
-<body>
-<div class="wrapper">
-    <div class="box one">1</div>
-    <div class="box two">2</div>
-    <div class="box three">3</div>
-    <div class="box four">4</div>
-    <div class="box five">5</div>
-    <div class="box six">6</div>
-</div>
+<body>  
+    <div class="body">
+            <div class="snow"></div>
+            <div class="contain">
+                <div class="cude one"><img src=".\imgs\539cf72a6070a959.jpg!200x200.jpg" alt=""></div>
+                <div class="cude two"><img src=".\imgs\539cf73c6aa15345.jpg!200x200.jpg" alt=""></div>
+                <div class="cude three"><img src=".\imgs\539cf723dd718899.jpg!200x200.jpg" alt=""></div>
+                <div class="cude four"><img src=".\imgs\539cf732f0f31021.jpg!200x200.jpg" alt=""></div>
+                <div class="cude five"><img src="" alt=""></div>
+                <div class="cude six"><img src="" alt=""></div>
+            </div>
+    </div>
+       
 </body>
 </html>
